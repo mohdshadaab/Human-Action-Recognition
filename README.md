@@ -1,4 +1,5 @@
 # Human-Action-Recognition
+**A Human Action Recognition pipeline using MMAction2 and kinetics400 dataset. MMAction2 is an open-source toolbox for video understanding based on PyTorch.**
 
 ## Installation and Getting Started
 
@@ -114,9 +115,17 @@ for in_path in tqdm(vid_paths):
 
 
 ### Directory Structure
-
+```BASH
+./MMAction2/
+```
+![MMAction2 Directory](/images/main_directory.png)
+```BASH
+./MMaction2/inference_run/
+```
+![inference_run directory](/images/inference_run.png)
 
 ### Sample Output
+![clip9_output](/images/clip9_img.png)
 
 ### References and Guides
 
