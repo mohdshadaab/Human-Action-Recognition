@@ -1,0 +1,161 @@
+.
+├── checkpoints
+├── configs
+│   ├── _base_
+│   │   ├── models
+│   │   └── schedules
+│   ├── detection
+│   │   ├── acrn
+│   │   ├── ava
+│   │   ├── _base_
+│   │   │   └── models
+│   │   └── lfb
+│   ├── localization
+│   │   ├── bmn
+│   │   ├── bsn
+│   │   └── ssn
+│   ├── recognition
+│   │   ├── c3d
+│   │   ├── csn
+│   │   ├── i3d
+│   │   ├── omnisource
+│   │   │   ├── slowonly_r50_8x8x1_256e_minikinetics
+│   │   │   └── tsn_r50_1x1x8_100e_minikinetics
+│   │   ├── r2plus1d
+│   │   ├── slowfast
+│   │   ├── slowonly
+│   │   │   └── data_benchmark
+│   │   ├── tanet
+│   │   ├── timesformer
+│   │   ├── tin
+│   │   ├── tpn
+│   │   ├── trn
+│   │   ├── tsm
+│   │   ├── tsn
+│   │   │   ├── custom_backbones
+│   │   │   ├── data_benchmark
+│   │   │   └── hvu
+│   │   └── x3d
+│   ├── recognition_audio
+│   │   ├── audioonly
+│   │   └── resnet
+│   └── skeleton
+│       └── posec3d
+├── data
+│   ├── input_data
+│   └── output_data
+├── demo
+│   └── fuse
+├── docker
+├── docs
+│   └── tutorials
+├── docs_zh_CN
+│   └── tutorials
+├── inference_run
+│   └── __pycache__
+├── mmaction
+│   ├── apis
+│   │   └── __pycache__
+│   ├── core
+│   │   ├── bbox
+│   │   │   ├── assigners
+│   │   │   │   └── __pycache__
+│   │   │   └── __pycache__
+│   │   ├── evaluation
+│   │   │   ├── ava_evaluation
+│   │   │   │   └── __pycache__
+│   │   │   └── __pycache__
+│   │   ├── hooks
+│   │   │   └── __pycache__
+│   │   ├── optimizer
+│   │   │   └── __pycache__
+│   │   ├── __pycache__
+│   │   ├── runner
+│   │   │   └── __pycache__
+│   │   └── scheduler
+│   │       └── __pycache__
+│   ├── datasets
+│   │   ├── pipelines
+│   │   │   └── __pycache__
+│   │   ├── __pycache__
+│   │   └── samplers
+│   │       └── __pycache__
+│   ├── localization
+│   │   └── __pycache__
+│   ├── models
+│   │   ├── backbones
+│   │   │   └── __pycache__
+│   │   ├── common
+│   │   │   └── __pycache__
+│   │   ├── heads
+│   │   │   └── __pycache__
+│   │   ├── localizers
+│   │   │   ├── __pycache__
+│   │   │   └── utils
+│   │   │       └── __pycache__
+│   │   ├── losses
+│   │   │   └── __pycache__
+│   │   ├── necks
+│   │   │   └── __pycache__
+│   │   ├── __pycache__
+│   │   ├── recognizers
+│   │   │   └── __pycache__
+│   │   └── roi_extractors
+│   │       └── __pycache__
+│   ├── __pycache__
+│   └── utils
+│       └── __pycache__
+├── mmaction2.egg-info
+├── requirements
+├── resources
+├── tests
+│   ├── data
+│   │   ├── activitynet_features
+│   │   ├── annotations
+│   │   ├── ava_dataset
+│   │   ├── bsp_features
+│   │   ├── eval_detection
+│   │   ├── eval_localization
+│   │   ├── imgs
+│   │   ├── lfb
+│   │   ├── proposals
+│   │   ├── rawvideo_dataset
+│   │   └── tem_results
+│   ├── test_data
+│   │   ├── test_datasets
+│   │   └── test_pipelines
+│   │       ├── test_augmentations
+│   │       └── test_loadings
+│   ├── test_metrics
+│   ├── test_models
+│   │   ├── test_common_modules
+│   │   ├── test_detectors
+│   │   ├── test_localizers
+│   │   └── test_recognizers
+│   ├── test_runtime
+│   └── test_utils
+└── tools
+    ├── analysis
+    ├── data
+    │   ├── activitynet
+    │   ├── ava
+    │   ├── diving48
+    │   ├── gym
+    │   ├── hmdb51
+    │   ├── hvu
+    │   ├── jester
+    │   ├── jhmdb
+    │   ├── kinetics
+    │   ├── mit
+    │   ├── mmit
+    │   ├── omnisource
+    │   ├── skeleton
+    │   ├── sthv1
+    │   ├── sthv2
+    │   ├── thumos14
+    │   ├── ucf101
+    │   └── ucf101_24
+    ├── deployment
+    └── misc
+
+158 directories
